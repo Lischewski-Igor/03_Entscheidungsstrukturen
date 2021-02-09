@@ -47,7 +47,7 @@ else
 
 /*************** IF - ELSE IF ***************/
 // mit Alternativen Fällen (älter, jünger, gleich alt)
-
+/*
 if (isJohnOlder) 
 { // Ja-Zweig | true
     console.log("John ist älter!");
@@ -62,3 +62,7 @@ else
 { // Nein-Zweig | false
     console.log("John ist jünger!"); 
 }
+*/
+
+/*************** Ternäre Schreibweise ***************/
+console.log((isJohnOlder) ? "John is older" : "Mark is older");
